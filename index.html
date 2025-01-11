@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Julyanne</title>
+    <meta name="description"
+        content="This is Julyanne Lee Rue-Yuin. This is my course home page for WDD 131 - Dynamic Web Fundamentals. HTML, CSS, and JavaScript project showcase, social media links, and contact information.">
+    <meta name="author" content="Julyanne Lee Rue-Yuin">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+
+    <script src="scripts/getdates.js" defer></script>
+
+    <title>WDD 131 - Dynamic Web Fundametnals - Julyanne Lee</title>
 </head>
+
 <body>
-    <h1>WDD 131 - Julyanne</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span id="name">Julyanne Lee</span></h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/julyanne-lee-9606ba2a0/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/9?lang=eng&id=p25#p25">Favorite
+                Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card1">
+            <h2>About Me</h2>
+            <div class="about">
+                <img src="images/profile.jpg" alt="Julyanne Lee">
+                <p>I'm Julyanne Lee. I was born in a small town in Malaysia. I'm a straits-born Chinese which is also an
+                    ethnic minority here in my home country. I have a cat named KitKat and I always look forward to
+                    spending time with her. I love food and music, and I love crafting.</p>
+            </div>
+
+            <h3>Fun Facts</h3>
+            <div class="fun-facts">
+                <figure>
+                    <img src="images/wedding_portrait.jpg" alt="peranakan couple wedding portrait">
+                    <figcaption>Peranakan couple</figcaption>
+                </figure>
+
+                <p>Straits-born Chinese is known as Peranakan or Baba-Nyonya. Our culture is a unique hybridization of
+                    ancient Chinese culture with local cultures of the Nusantara region. Regions with significant
+                    populations of Peranakan are Indonesia, Malaysia, Singapore, and Southern Thailand. There are also
+                    Peranakans with Indian ancestry known as Chitty.</p>
+            </div>
+        </section>
+
+        <section class="card2">
+            <h2>Web Dev Resources</h2>
+            <ul class="resources">
+                <li><a href="https://roadmap.sh/">Roadmap.sh</a></li>
+                <li><a href="https://mimo.org/glossary">mimo.org</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+                <li><a href="https://dev.to/">DEV Community</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Julyanne Lee - Malaysia</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>
