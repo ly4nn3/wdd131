@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #4c541f;
+    --accent-color: #f6fae0;
+    --text1-color: #2E294E;
+    --text2-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    color: var(--text1-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--text2-color);
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 2rem;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--text2-color);
+    padding: 2rem;
+}
+
+.nav-menu li {
+    list-style: none;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: var(--text2-color);
+}
+
+.nav-menu li a:hover {
+    text-decoration: wavy underline;
+    color: #c8e044;
+}
+
+.nav-menu li a.active {
+    color: var(--accent-color);
+    text-decoration: wavy underline;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.album-grid img {
+    width: 100%;
+    height: auto;
+}
