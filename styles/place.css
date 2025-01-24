@@ -109,6 +109,11 @@ footer {
     left: -45px;
 }
 
+.weather-content h2::after {
+    content: " 🌧️";
+    display: inline-block;
+}
+
 .weather-content img {
     display: none;
 }
@@ -168,10 +173,6 @@ footer {
         grid-row: 1;
     }
 
-    .emote {
-        display: none;
-    }
-
     .hero {
         grid-row: 2;
     }
@@ -182,6 +183,10 @@ footer {
 
     .weather-content {
         grid-row: 4;
+    }
+
+    .weather-content h2::after {
+        display: none;
     }
 
     .weather-content img {
