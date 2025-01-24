@@ -1,0 +1,180 @@
+:root {
+    --primary-color: #483D3F;
+    --secondary-color: #CDD3CE;
+    --accent-color: #E83F6F;
+    --text1-color: #191923;
+    --text2-color: #FFFCF2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    
+}
+
+header h1 {
+    color: var(--text2-color);
+    text-align: center;
+}
+
+dl {
+    position: relative;
+    max-width: 500px;
+    min-width: 220px;
+    margin: 0 auto;
+    padding: 4rem 1rem 1rem 2rem;
+    background-color: rgb(249, 249, 249, 0.7);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+dl h2 {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    background-color: rgb(232, 63, 111, 0.8);
+    color: var(--text2-color);
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    border-radius: 4px;
+    gap: 1rem;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 120px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+dd {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--text2-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Class Selectors */
+/* Hero image */
+.hero {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero picture {
+    width: 100%;
+    display: block;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* ID Selectors */
+/* Country data & Weather */
+#country-data, #weather {
+    position: absolute;
+    width: 30%;
+    max-width: 380px;
+    min-width: 250px;
+}
+
+#country-data {
+    position: absolute;
+    top: 150px;
+    left: 5%;
+}
+
+#weather {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+#weather img {
+    display: none;
+}
+
+@media (max-width: 1290px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    header {
+        grid-row: 1;
+    }
+
+    dl h2 {
+        display: block;
+        position: static;
+        margin-bottom: 1rem;
+        background-color: var(--accent-color);
+        color: var(--text2-color);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .emote {
+        display: none;
+    }
+
+    .hero {
+        grid-row: 2;
+    }
+
+    #country-data, #weather {
+        width: 80%;
+        min-width: 250px;
+        border: 1px solid var(--secondary-color);
+        margin: 1rem auto;
+    }
+
+    #country-data {
+        grid-row: 3;
+        position: static;
+        padding: 1rem;
+    }
+
+    #weather {
+        grid-row: 4;
+        position: static;
+        padding: 1rem;
+    }
+
+    #weather img {
+        display: block;
+        background-color: var(--primary-color);
+        border-radius: 50px;
+        justify-self: center;
+        margin: 1rem;
+    }
+
+    footer {
+        grid-row: 5;
+    }
+}
