@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Country page for WDD131 Week 3 assignment.">
+    <title>Malaysia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Malaysia</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Malaysia, Kuala Lumpuer Twin Towers" width="500" height="750">
+            </picture>
+        </div>
+
+        <dl id="country-data">
+            <h2>Data</h2>
+
+            <dt>Area:</dt>
+            <dd>330,809 km²</dd>
+
+            <dt>Population:</dt>
+            <dd>34,100,000</dd>
+
+            <dt>Capital:</dt>
+            <dd>Kuala Lumpuer</dd>
+
+            <dt>Languages:</dt>
+            <dd>Malay, Mandarin, Tamil, English</dd>
+
+            <dt>Currency:</dt>
+            <dd>Malaysian Ringgit</dd>
+
+            <dt>Time Zone:</dt>
+            <dd>UTC+8</dd>
+
+            <dt>Calling Code:</dt>
+            <dd>+60</dd>
+
+            <dt>Internet TLD:</dt>
+            <dd>.my</dd>
+        </dl>
+
+        <dl id="weather">
+            <h2>Weather <span class="emote">🌧️</span></h2>
+            <img src="images/heavy-rain.svg" alt="Light rain icon" width="100">
+
+            <dt>Temperature:</dt>
+            <dd>27°C</dd>
+
+            <dt>Conditions:</dt>
+            <dd>Heavy rain</dd>
+
+            <dt>Wind:</dt>
+            <dd>5 km/h</dd>
+
+            <dt>Wind Chill:</dt>
+            <dd></dd>
+        </dl>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Julyanne Lee - Malaysia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
