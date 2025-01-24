@@ -13,7 +13,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // Find the element for wind chill and update its content
     const windChillElement = document.querySelector("#weather dt:nth-of-type(4) + dd");
     if (windChillElement) {
-        windChillElement.textContent = `${windChill} °C`;
+        if (temperature <= 10 && windSpeed > 4.8) {
+            windChillElement.textContent = `${windChill} °C`;
+        } else {
+            windChillElement.textContent = "N/A";
+        }
     } else {
         console.error("Wind Chill element not found");
     }
