@@ -19,7 +19,6 @@ header {
     background-color: var(--primary-color);
     padding: 2rem;
     font-family: "Playfair Display", 'Times New Roman', Times, serif;
-    
 }
 
 header h1 {
@@ -36,18 +35,6 @@ dl {
     background-color: rgb(249, 249, 249, 0.7);
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-dl h2 {
-    display: flex;
-    position: absolute;
-    top: 10px;
-    left: -20px;
-    background-color: rgb(232, 63, 111, 0.8);
-    color: var(--text2-color);
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    border-radius: 4px;
-    gap: 1rem;
 }
 
 dt {
@@ -92,32 +79,84 @@ footer {
     object-fit: cover;
 }
 
-/* ID Selectors */
-/* Country data & Weather */
-#country-data, #weather {
-    position: absolute;
+/* Data and weather content */
+.data-content, .weather-content {
+    position: relative;
     width: 30%;
     max-width: 380px;
     min-width: 250px;
 }
 
-#country-data {
-    position: absolute;
-    top: 150px;
-    left: 5%;
+.data-content h2, .weather-content h2 {
+    background-color: rgb(232, 63, 111, 0.8);
+    color: var(--text2-color);
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    z-index: 1;
+    width: fit-content;
 }
 
-#weather {
-    position: absolute;
-    bottom: 0;
-    right: 5%;
+.data-content h2 {
+    position: relative;
+    top: 55px;
+    left: -15px;
 }
 
-#weather img {
+.weather-content h2 {
+    position: relative;
+    top: 55px;
+    left: -45px;
+}
+
+.weather-content img {
     display: none;
 }
 
-@media (max-width: 1290px) {
+/* ID Selectors */
+/* Country data & Weather */
+#country-data, #weather {
+    position: relative;
+    max-width: 500px;
+    min-width: 220px;
+    margin: 0 auto;
+    padding: 4rem 1rem 1rem 2rem;
+    background-color: rgb(249, 249, 249, 0.7);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#weather {
+    position: relative;
+    right: 30px;
+}
+
+/* Large screen styles */
+@media (min-width: 1301px) {
+    .data-content {
+        position: absolute;
+        top: 150px;
+        left: 5%;
+        width: 30%;
+        max-width: 380px;
+        min-width: 250px;
+    }
+
+    .weather-content {
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+        width: 30%;
+        max-width: 380px;
+        min-width: 250px;
+    }
+
+    #country-data, #weather {
+        width: 100%;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 1300px) {
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -128,17 +167,6 @@ footer {
         grid-row: 1;
     }
 
-    dl h2 {
-        display: block;
-        position: static;
-        margin-bottom: 1rem;
-        background-color: var(--secondary-color);
-        color: var(--text1-color);
-        padding: 0.5rem 1rem;
-        border-radius: 4px;
-        text-align: center;
-    }
-
     .emote {
         display: none;
     }
@@ -147,31 +175,56 @@ footer {
         grid-row: 2;
     }
 
-    #country-data, #weather {
-        width: 80%;
-        min-width: 250px;
-        border: 1px solid var(--secondary-color);
+    .data-content {
+        grid-row: 3;
+    }
+
+    .weather-content {
+        grid-row: 4;
+    }
+
+    .weather-content img {
+        display: block;
+        justify-self: center;
+        background-color: var(--primary-color);
+        border-radius: 50px;
+    }
+
+    .data-content, .weather-content {
+        width: 100%;
+        border-radius: 4px;
         margin: 1rem auto;
+        border: 1px solid var(--secondary-color);
+        position: static;
+    }
+
+    .data-content h2, .weather-content h2 {
+        display: block;
+        position: static;
+        margin-bottom: 1rem;
+        background-color: var(--secondary-color);
+        color: var(--text1-color);
+        padding: 0.5rem 3rem;
+        margin: 1rem;
+        border-radius: 4px;
+        justify-self: center;
+    }
+
+    #country-data, #weather {
+        min-width: 250px;
+        margin: 1rem auto;
+        background: none;
+        box-shadow: none;
+        position: static;
+        padding: 1rem;
     }
 
     #country-data {
         grid-row: 3;
-        position: static;
-        padding: 1rem;
     }
 
     #weather {
         grid-row: 4;
-        position: static;
-        padding: 1rem;
-    }
-
-    #weather img {
-        display: block;
-        background-color: var(--primary-color);
-        border-radius: 50px;
-        justify-self: center;
-        margin: 1rem;
     }
 
     footer {
