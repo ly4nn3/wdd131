@@ -32,6 +32,14 @@ footer {
     border-left: 5px solid var(--accent-color);
 }
 
+.section img {
+    width: 100%;
+}
+
+.mobile-wireframe {
+    max-width: 360px;
+}
+
 .headers {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
