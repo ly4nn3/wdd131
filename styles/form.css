@@ -77,6 +77,16 @@ input[type="submit"]:hover {
     transform: scale(0.95);
 }
 
+select:required,
+input[type="date"]:required {
+    border-left: 4px solid #ff0000;
+}
+
+select:required:valid,
+input[type="date"]:required:valid {
+    border-left: 4px solid green;
+}
+
 .star-rating {
     display: flex;
     align-items: center;
@@ -139,7 +149,7 @@ input[type="submit"]:hover {
     padding: 0;
 }
 
-.optional {
+.requirement {
     font-size: .8rem;
 }
 
