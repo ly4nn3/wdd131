@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #BE95C4;
+    --accent-color: #5E548E;
+    --text-color: #231942;
+    --background-color: #E0B1CB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Urbanist", Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 450px;
+    margin: 0.8rem auto;
+    padding-bottom: 0.8rem;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+form {
+    padding: 0 1rem;
+}
+
+label,
+.rating {
+    display: block;
+    padding-top: 1.8rem;
+}
+
+select,
+input[type="date"],
+textarea,
+input[type="text"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: .75rem;
+    border-radius: 5px;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+input[type="submit"] {
+    width: 90%;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    display: block;
+    background: linear-gradient(to right, var(--text-color), var(--accent-color));
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to left, var(--text-color), var(--accent-color));
+    transform: scale(0.95);
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating > label {
+    width: 30px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 30px;
+    transition: 0.2s ease;
+    color: var(--accent-color);
+    cursor: pointer;
+    padding: 0;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: var(--text-color);
+    transition: 0.2s ease;
+}
+
+.star-rating label:active::before {
+    transform: scale(1.1);
+}
+
+.star-rating label::before {
+    content: '\2606';
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+}
+
+.star-rating input:checked ~ label:before {
+    content: '\2605';
+}
+
+/* Firefox-specific adjustments */
+@-moz-document url-prefix() {
+    .star-rating input:checked ~ label:before {
+        font-size: 36px;
+        line-height: 21px;
+    }
+}
+
+.checkbox-group label{
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
+.optional {
+    font-size: .8rem;
+}
+
+main p {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#reviewCount {
+    font-weight: bold;
+}
