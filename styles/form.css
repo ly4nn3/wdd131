@@ -130,6 +130,10 @@ input[type="submit"]:hover {
     }
 }
 
+.checkbox-group {
+    margin-top: 2rem;
+}
+
 .checkbox-group label{
     margin: 0.5rem 0;
     padding: 0;
