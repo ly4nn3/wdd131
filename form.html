@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review Form">
+    <meta name="author" content="Julyanne Lee Rue-Yuin">
+    <title>Product Review Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html">
+            <label>Product Name
+                <select name="product" id="product" required>
+                    <option value="" disabled selected>Choose a Product...</option>
+                </select>
+            </label>
+
+            <div class="rating">Overall Rating</div>
+            <div class="star-rating">
+                <input type="radio" name="stars" id="star-5" value="5" required>
+                <label for="star-5"></label>
+                <input type="radio" name="stars" id="star-4" value="4">
+                <label for="star-4"></label>
+                <input type="radio" name="stars" id="star-3" value="3">
+                <label for="star-3"></label>
+                <input type="radio" name="stars" id="star-2" value="2">
+                <label for="star-2"></label>
+                <input type="radio" name="stars" id="star-1" value="1">
+                <label for="star-1"></label>
+            </div>
+
+            <label>Date of Installation<input type="date" name="date" id="date" required></label>
+            
+            <label>What features did you find useful in the product?<br>(Check all that apply)
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="features" id="durability" value="Durability">Durability</label>
+                    <label><input type="checkbox" name="features" id="ease" value="Ease of Use">Ease of Use</label>
+                    <label><input type="checkbox" name="features" id="performance" value="Performance">Performance</label>
+                    <labeL><input type="checkbox" name="features" id="design" value="Design">Design</label>
+                </div>
+            </label>
+
+            <label>Written Review <span class="optional">(Optional)</span>
+                <textarea name="review" id="review" cols="30" rows="10"></textarea>
+            </label>
+
+            <label>Your Name <span class="optional">(Optional)</span></label>
+                <input type="text" name="name" id="name">
+        </form>
+
+            <input type="submit" value="Post My Review">
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Julyanne Lee - Malaysia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
