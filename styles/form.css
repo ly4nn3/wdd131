@@ -1,7 +1,8 @@
 :root {
     --primary-color: #BE95C4;
     --accent-color: #5E548E;
-    --text-color: #231942;
+    --accent2-color: #231942;
+    --text-color: black;
     --background-color: #E0B1CB;
 }
 
@@ -64,7 +65,7 @@ input[type="submit"] {
     padding: 1rem;
     margin: 1.5rem auto;
     display: block;
-    background: linear-gradient(to right, var(--text-color), var(--accent-color));
+    background: linear-gradient(to right, var(--accent2-color), var(--accent-color));
     color: white;
     border: none;
     border-radius: 10px;
@@ -73,7 +74,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background: linear-gradient(to left, var(--text-color), var(--accent-color));
+    background: linear-gradient(to left, var(--accent2-color), var(--accent-color));
     transform: scale(0.95);
 }
 
