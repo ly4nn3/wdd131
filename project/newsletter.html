@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Subscribe to the Freeway Letter for exclusive updates on new outfits, events, and game news in Infinity Nikki. Stay stylish and never miss a beat!">
+    <title>Subscribe to the Freeway Letter | Nikki's Freeway</title>
+    <!-- Stylesheets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <!-- Scripts -->
+    <script src="scripts/dates.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="compendium.html">Compendium</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="newsletter.html" class="active">Newsletter</a></li>
+            </ul>
+    </header>
+
+    <main>
+        <h1>Freeway Letter</h1>
+        <form method="get" action="thankyou.html">
+            <label>Nickname<input type="text" name="name" id="name" placeholder="Keiuko"></label>
+            <label>E-mail<input type="email" name="email" id="email" placeholder="email@example.com"></label>
+            <input type="submit" value="Subscribe to the Freeway Letter">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> <strong>Keiuko</strong>. A project by Julyanne Lee.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
