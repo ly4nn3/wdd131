@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #455E61;
+    --accent-color: #EC9BA8;
+    --background-color: #EFE6D8;
+    --element-color: #FBF8F2;
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary-color);
+    padding: 0.5rem;
+}
