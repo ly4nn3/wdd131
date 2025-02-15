@@ -10,12 +10,95 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
-    line-height: 1.6;
-    margin: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--element-color);
 }
 
 h1, h2 {
     font-family: 'Playfair Display', serif;
     color: var(--primary-color);
     padding: 0.5rem;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 1366px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Class Selectors */
+/* --- Header & Nav --- */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin: 0 1rem 0 1rem;
+}
+
+.logo h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-menu a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: var(--accent-color);
+}
+
+/* --- Main Content --- */
+.hero {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 1.5rem;
+    max-width: 40%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: var(--text-color);
 }
