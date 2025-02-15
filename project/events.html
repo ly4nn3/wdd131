@@ -22,6 +22,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- Scripts -->
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/events.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,6 +31,7 @@
             <h1>Nikki's Freeway</h1>
         </div>
         <nav class="nav-menu">
+            <div class="hamburger-menu">☰</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="compendium.html">Compendium</a></li>
@@ -37,21 +39,26 @@
                 <li><a href="news.html">News</a></li>
                 <li><a href="newsletter.html">Newsletter</a></li>
             </ul>
+        </nav>
     </header>
 
-    <main>
-        <h1>Infinity Nikki Events</h1>
-        <aside>
-            <div>
-                <button>Ongoing</button>
-                <button>Upcoming</button>
-                <button>Ended</button>
-            </div>
-        </aside>
+    <main class="events-page">
+        <h2>Infinity Nikki Events</h2>
+        <div class="events-layout">
+            <aside class="events-sidebar">
+                <div class="event-filters">
+                    <button class="filter-btn active" data-filter="ongoing">Ongoing</button>
+                    <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+                    <button class="filter-btn" data-filter="ended">Ended</button>
+                </div>
+            </aside>
+        </div>
 
-        <section>
-            Main view for events go here
-        </section>
+        <div class="events-container">
+            <div id="event-grid">
+
+            </div>
+        </div>
     </main>
 
     <footer>

@@ -22,6 +22,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- Scripts -->
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/news.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,6 +31,7 @@
             <h1>Nikki's Freeway</h1>
         </div>
         <nav class="nav-menu">
+            <div class="hamburger-menu">☰</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="compendium.html">Compendium</a></li>
@@ -37,19 +39,18 @@
                 <li><a href="news.html" class="active">News</a></li>
                 <li><a href="newsletter.html">Newsletter</a></li>
             </ul>
+        </nav>
     </header>
 
     <main>
-        <h1>Infinity News</h1>
+        <h2>Infinity News</h2>
         <div>
             <button>Latest</button>
             <button>News</button>
             <button>Notices</button>
         </div>
 
-        <section>
-            Main view for news go here
-        </section>
+        <div class="news-container"></div>
     </main>
 
     <footer>

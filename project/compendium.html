@@ -22,6 +22,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- Scripts -->
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/compendium.js" defer></script>
 </head>
 <body>
     <header>
@@ -30,6 +31,7 @@
             <h1>Nikki's Freeway</h1>
         </div>
         <nav class="nav-menu">
+            <div class="hamburger-menu">☰</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="compendium.html" class="active">Compendium</a></li>
@@ -37,13 +39,14 @@
                 <li><a href="news.html">News</a></li>
                 <li><a href="newsletter.html">Newsletter</a></li>
             </ul>
+        </nav>
     </header>
 
     <main>
-        <h1>Freeway Compendium</h1>
-        <aside>
+        <h2>Freeway Compendium</h2>
+        <aside class="compendium-filters">
             <div>
-                <h2>Styles</h2>
+                <p>Styles</p>
                 <button>Fresh</button>
                 <button>Elegant</button>
                 <button>Sexy</button>
@@ -52,17 +55,17 @@
             </div>
 
             <div>
-                <h2>Types</h2>
+                <p>Types</p>
                 <button>Miracle Outfit</button>
                 <button>Ability Outfit</button>
                 <button>Stylish Outfit</button>
+                <button>Other</button>
                 <button>Momo's Cloak</button>
             </div>
         </aside>
 
-        <section>
-            Main view for outfits go here
-        </section>
+        <div class="outfits-container">
+        </div>
     </main>
 
     <footer>

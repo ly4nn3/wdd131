@@ -22,14 +22,18 @@
     <link rel="manifest" href="/site.webmanifest">
     <!-- Scripts -->
     <script src="scripts/dates.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
 </head>
 <body>
+    <div id="visit-toast" class="toast hidden"></div>
     <header>
         <div class="logo">
             <img src="images/logo.png" alt="Nikki's Freeway Logo" width="50" height="50">
-            <title>Nikki's Freeway</title>
+            <h1>Nikki's Freeway</h1>
         </div>
         <nav class="nav-menu">
+            <div class="hamburger-menu">☰</div>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="compendium.html">Compendium</a></li>
@@ -37,6 +41,7 @@
                 <li><a href="news.html">News</a></li>
                 <li><a href="newsletter.html">Newsletter</a></li>
             </ul>
+        </nav>
     </header>
 
     <main>
@@ -47,44 +52,43 @@
                 <img src="images/hero-small.webp" alt="Infinity Nikki" width="500" height="250">
             </picture>
             <div class="hero-text">
-                <h3>Explore the Open-World Adventure of Infinity Nikki</h3>
-                <p>Step into th emagical world of Miraland, where fashion and exploration come together in this cozy game.</p>
+                <h2>Welcome to Nikki's Freeway!</h2>
+                <p>Explore the open-world adventure of Infinity Nikki! Step into the magical world of Miraland, where fashion and exploration come together in this cozy game.</p>
                 <p><strong>Nikki's Freeway</strong> is an F2P-friendly fan-made hub, bringing you the latest updates, outfit collections, and event details from Infinity Nikki!</p>
             </div>
         </div>
-        <h2>Welcome to Nikki's Freeway!</h2>
-        <section>
-            <div>
-                <h2>Latest Post</h2>
-                <div id="latest-post">
-                    
-                </div>
+        <section class="latest-section">
+            <h3>Latest Post</h3>
+            <div id="latest-post">
+                
             </div>
+        </section>
 
-            <div>
-                <h2>Events</h2>
+        <section class="preview-grid">
+            <div class="events-section">
+                <h3>Events</h3>
                 <div id="events">
                     
                 </div>
             </div>
 
-            <div>
-                <h2>News & Notices</h2>
+            <div class="news-section">
+                <h3>News & Notices</h3>
                 <div id="news">
                     
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="compendium-section">
             <div>
-                <h2>Freeway Compendium</h2>
+                <h3>Freeway Compendium</h3>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="currentyear"></span> <strong>Keiuko</strong>. A project by Julyanne Lee.</p>
+        <p>&copy; <span id="currentyear"></span> <strong>Keiuko</strong>. A project by Julyanne Lee. | <a href="sources.html">Sources</a></p>
         <p id="lastModified"></p>
     </footer>
 </body>

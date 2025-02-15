@@ -29,6 +29,7 @@
             <h1>Nikki's Freeway</h1>
         </div>
         <nav class="nav-menu">
+            <div class="hamburger-menu">☰</div>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="compendium.html">Compendium</a></li>
@@ -36,15 +37,36 @@
                 <li><a href="news.html">News</a></li>
                 <li><a href="newsletter.html" class="active">Newsletter</a></li>
             </ul>
+        </nav>
     </header>
 
     <main>
-        <h1>Freeway Letter</h1>
-        <form method="get" action="thankyou.html">
-            <label>Nickname<input type="text" name="name" id="name" placeholder="Keiuko"></label>
-            <label>E-mail<input type="email" name="email" id="email" placeholder="email@example.com"></label>
-            <input type="submit" value="Subscribe to the Freeway Letter">
-        </form>
+        <div class="newsletter-container">
+            <div class="newsletter-form">
+                <h2>Subscribe to the Freeway Letter</h2>
+                <form method="get" action="thankyou.html">
+                    <div class="form-group">
+                        <label for="name">Nickname</label>
+                        <input type="text" name="name" id="name" placeholder="Keiuko" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="email@example.com" required>
+                    </div>
+                    
+                    <input type="submit" value="Subscribe to the Freeway Letter" class="newsletter-submit">
+                </form>
+            </div>
+            
+            <div class="community-section">
+                <h3>Join Our Community</h3>
+                <p>Connect with other stylists!</p>
+                <img src="images/discord-qr.png" alt="Discord QR Code" class="qr-code">
+                <p>Or click below to join our Discord server</p>
+                <a href="https://discord.gg/63ChDqwY88" class="discord-link" target="_blank">Join Discord</a>
+            </div>
+        </div>
     </main>
 
     <footer>
