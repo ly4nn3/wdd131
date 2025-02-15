@@ -41,6 +41,10 @@ footer {
     padding: 1rem;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 /* Class and ID Selectors */
 /* --- localStorage Visit Count Message --- */
 .toast {
