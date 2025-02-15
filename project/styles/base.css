@@ -529,7 +529,8 @@ footer a {
     padding: 2rem;
 }
 
-.compendium-filters {
+.compendium-filters,
+.news-filters {
     padding-left: 1rem;
 }
 
