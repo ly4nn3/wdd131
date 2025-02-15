@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Feb 13: Server Maintenance Completed",
+        "type": "Notices",
+        "date": "2025-02-14",
+        "details": "Limited-time Resonance events are now available in game! Additional limited-time events 'Bright Moments' and 'Aliso's Travel Shop' are also underway!"
+    },
+    {
+        "title": "Feb 13: Server Maintenance Extended",
+        "type": "Notices",
+        "date": "2025-02-14",
+        "details": "The scheduled server maintenance, initially planned to end at 20:00 on Feb 13 (UTC-7), will be extended. The specific maintenance compensation will be issued separately according to the actual maintenance duration. For every additional hour of delay, an extra [Diamond]*100 will be added to the original compensation."
+    },
+    {
+        "title": "Feb 13: Server Maintenance",
+        "type": "Notices",
+        "date": "2025-02-12",
+        "details": "Infinity Nikki will undergo a server maintenance update from 19:00 to 20:00 on February 13, 2025 (UTC-7). During this period, the game will be inaccessible. Please plan ahead to avoid any unnecessary losses. The maintenance schedule may be adjusted based on actual conditions."
+    },
+    {
+        "title": "Whispers of Bliss | Whimsical Wardrobe",
+        "type": "News",
+        "date": "2025-02-11",
+        "details": "When wearing this outfit and collecting Woolfruit, Lampchilis, Buttoncones, or Seed Pearls, the contents of the picnic basket will change. Atmospheric decorations for existing picnic blankets in the open world will also appear when taking photos with Momo's Camera.",
+        "image": "https://webstatic.infoldgames.com/7d325eec933f05b1/images/bg/H0vyxkRxZyLKArNT.jpg",
+        "imageAlt": "Whispers Of Bliss outfit"
+    },
+    {
+        "title":"The Creation of Music of the Firework Isles",
+        "type": "News",
+        "date": "2025-02-09",
+        "details": [
+            {
+                "question": "Q1: As Firework Isles is the focal point of Firework Season, how did the music production team go about establishing the tone and theme for the music?",
+                "team": "Music Production Team",
+                "answer": "With elements such as tents, hot air balloons, and carousels showcased on the Firework Isles, it's easy to think of an amusement park! Naturally, carnival music featuring the accordion comes to mind. Since the accordion is the main instrument for the Florawish area, it was the perfect choice as the primary instrument for our music this time. However, pure carnival music would be a bit too overwhelming for the Firework Isles, so we incorporated bossa nova elements to highlight the laid-back, joyous holiday atmosphere during the day, and the romantic, ethereal ambiance of fireworks blooming under the stars at night.",
+                "image": "https://webstatic.infoldgames.com/7d325eec933f05b1/images/bg/pACZxILK7mRjP8pZ.png",
+                "imageAlt": "Nikki and Momo with fireworks"
+            },
+            {
+                "question": "Q2: In previous maps, the BGM (background music) for an area would vary depending on the specific location within that area and the time of day. What can we expect for the Firework Isles, which is especially lively at night?",
+                "team": "Music Production/Sound Design Team",
+                "answer": "Fireworks (extremely loud)! They're a spectacle that happens only at night~ As the highlight of the Firework Festival, their place in the music lineup is dominant. They won't be overshadowed by combat music, carriage rides, or anything else—once the fireworks begin, the music won't stop!!!",
+                "image": "https://webstatic.infoldgames.com/7d325eec933f05b1/images/bg/osOQedTZb7ugdYAX.png",
+                "imageAlt":"NIkki in Stardust Flare outfit"
+            }
+        ]
+    }
+]

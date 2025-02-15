@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Blooming Dreams",
+        "description": "As soon as Flower Sprite Fairy Tale hit the shelves, it topped the children's book charts. Many wondered how the once-unknown author could have crafted such a masterpiece after a year-long silence. The author replied, 'For me, this story holds much more than just a fairy tale.'",
+        "type": "Ability",
+        "ability": "Floating",
+        "style": "Sweet",
+        "label": ["Fairy", "Fantasy"],
+        "quality": 5,
+        "banner": "Blooming Fantasy - Limited",
+        "image": "https://img.game8.co/4058096/5d33d7f2c7fbadec26f819a2d97e006a.png/show",
+        "imageAlt": "Blooming Dreams outfit"
+    },
+    {
+        "name": "Blossoming Stars",
+        "description": "How long does it take to go from nobody to somebody? If a small star is not bright enough to illuminate the night sky, what about gathering thousands of them and weaving them into a splendid Milky Way?",
+        "type": "Other",
+        "ability": "none",
+        "style": "Fresh",
+        "label": ["Pastoral", "Romance"],
+        "quality": 5,
+        "banner": "Distant Sea - Permanent",
+        "image": "https://img.game8.co/4058118/cde9d73a07a694b4e1978522f354e44d.png/show",
+        "imageAlt": "Blossoming Stars outfit"
+    },
+    {
+        "name": "Flutter Storm",
+        "description": "That wandering island will never be found again. Perhaps the goddess there still relishes the war moments in the expanse of eternity. In that realm, a butterfly flutters, striving to reach the distant human world, stirring a hurricane in someone's heart.",
+        "type": "Other",
+        "ability": "none",
+        "style": "Sexy",
+        "label": ["Romance", "Ballroom"],
+        "quality": 5,
+        "banner": "Butterfly Dream - Limited",
+        "image": "https://img.game8.co/4058117/f739c480be2f932ba6dc5820d61e21cd.png/show",
+        "imageAlt": "Flutter Storm outfit"
+    },
+    {
+        "name": "Dance Till Dawn",
+        "description": "Soar into the dazzling sky and dance alongside the fireworks! Leave behind yesterday's sorrows, for tonight, joy will be in the spotlight. Unwavering courage will cast out the darkness and the future will blossom in radiant sunlight.",
+        "type": "Ability",
+        "ability": "Gliding",
+        "style": "Fresh",
+        "label": ["Fantasy", "Cute"],
+        "quality": 5,
+        "banner": "Fireworks Prelude - Limited",
+        "image": "https://img.game8.co/4086128/1917321311e9c835998013a3525baded.png/show",
+        "imageAlt": "Dance Till Dawn outfit"
+    },
+    {
+        "name": "Verdant Melodies",
+        "description": "Wandering along Silken Lake, a gentlle breeze stirs, setting the lake's surface aglow with shimmering light. She gathers the scattered flowers and weave them, one by one, into a tapestry of romance, adorning the vibrant scenes along the picnic path with fresh, radiant blossoms.",
+        "type": "Other",
+        "ability": "none",
+        "style": "Fresh",
+        "label": ["Pastoral"],
+        "quality": 4,
+        "banner": "Breezy Melodies - Limited",
+        "image":"https://img.game8.co/4104906/dd8cc6541a581595275f42b91aafbc70.png/show",
+        "imageAlt": "Verdant Melodies outfit"
+    },
+    {
+        "name": "Whispers of Bliss",
+        "description": "On her tiny canvas, she captured a vibrant flower field, a basket of fruit, and a grace girl nearby. With bold strokes, the girl's figure seemed ready to step out of the painting.",
+        "type": "Other",
+        "ability": "none",
+        "style": "Sweet",
+        "label": ["Cute"],
+        "quality": 4,
+        "banner": "Breezy Melodies - Limited",
+        "image": "https://img.game8.co/4104907/4029fc00b18f1d18fc15be6066d128d9.png/show",
+        "imageAlt": "Whispers of Bliss outfit"
+    }
+]
