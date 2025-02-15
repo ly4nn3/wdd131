@@ -12,7 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Roboto&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="project-favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -24,6 +25,10 @@
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Nikki's Freeway Logo" width="50" height="50">
+            <title>Nikki's Freeway</title>
+        </div>
         <nav class="nav-menu">
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
@@ -35,12 +40,19 @@
     </header>
 
     <main>
-        <h1>Welcome to Nikki's Freeway!</h1>
-        <div class="hero-image">
-            <source srcset="images/hero-small.webp" media="(min-width: 500px)">
-            <source srcset="images/hero-medium.webp" media="(min-width: 1000px)">
-            <img src="images/hero-large.webp" alt="Infinity Nikki" width="1500" height="750">
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Infinity Nikki" width="500" height="250">
+            </picture>
+            <div class="hero-text">
+                <h3>Explore the Open-World Adventure of Infinity Nikki</h3>
+                <p>Step into th emagical world of Miraland, where fashion and exploration come together in this cozy game.</p>
+                <p><strong>Nikki's Freeway</strong> is an F2P-friendly fan-made hub, bringing you the latest updates, outfit collections, and event details from Infinity Nikki!</p>
+            </div>
         </div>
+        <h2>Welcome to Nikki's Freeway!</h2>
         <section>
             <div>
                 <h2>Latest Post</h2>
