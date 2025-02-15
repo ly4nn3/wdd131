@@ -70,5 +70,41 @@
         "banner": "Breezy Melodies - Limited",
         "image": "https://img.game8.co/4104907/4029fc00b18f1d18fc15be6066d128d9.png/show",
         "imageAlt": "Whispers of Bliss outfit"
+    },
+    {
+        "name": "Wishful Aurosa",
+        "description": "Once, a race was awakened by a wish. Now, the miracles of wishes continue, illuminating lives just as the dormant fairies awaken amid the bloom of the Aurosa.",
+        "type": "Miracle",
+        "ability": "none",
+        "style": "Elegant",
+        "label": ["Formal", "Retro"],
+        "quality": 5,
+        "banner": "Obtained from crafting",
+        "image": "https://img.game8.co/4059259/38f1059c5fc26392868a750cf0d59e08.png/show",
+        "imageAlt": "Wishful Aurosa outfit"
+    },
+    {
+        "name": "Paper Wings",
+        "description": "Reach the 140 Deep Echoes pull milestone on the limited-time Celestial Wishes Banner.",
+        "type": "Momo",
+        "ability": "none",
+        "style": "none",
+        "label": ["none"],
+        "quality": 0,
+        "banner": "Celestial Wishes - Limited",
+        "image": "https://assetsio.gnwcdn.com/Infinity-Nikki-Momo-Outfit-Paper-Wings.jpg?width=690&quality=75&format=jpg&auto=webp",
+        "imageAlt": "Paper Wings - Momo's outfit"
+    },
+    {
+        "name": "Carnival Ode",
+        "description": "In Chloe's diary, there's a line that reads, 'There should be an ode, dedicated to memory, to life, to home, and to the simple beauties around us.'",
+        "type": "Stylish",
+        "ability": "none",
+        "style": "Cool",
+        "label": ["Fashion"],
+        "quality": 3,
+        "banner": "Obtained from chests",
+        "image": "https://img.game8.co/4059187/d4afb9e6bb6590d8ddcfd24c926fa4d8.png/show",
+        "imageAlt": "Carnival Ode outfit"
     }
 ]

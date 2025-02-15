@@ -1,7 +1,7 @@
 [
     {
         "title": "Heartfelt Gifts",
-        "image": "https://img.game8.co/4058096/5d33d7f2c7fbadec26f819a2d97e006a.png/show",
+        "image": "https://webstatic.infoldgames.com/7d325eec933f05b1/images/bg/gL5K2rdC4f6BTfGd.jpg",
         "imageAlt": "Heartfelt Gifts outfits",
         "startDate": "2025-01-23",
         "endDate": "2025-02-25",
@@ -27,7 +27,7 @@
                 "title": "Drifting Whim",
                 "startDate": "2025-01-24",
                 "endDate": "2025-02-26",
-                "details": "Collect Whim Balloons in Firework Isles to unlock limited time rewards such as Daimonds, Glitter Bubbles, and Bling!"
+                "details": "Collect Whim Balloons in Firework Isles to unlock limited time rewards such as Diamonds, Glitter Bubbles, and Bling!"
             },
             {
                 "title": "Fireworks Styling Challenges",
@@ -46,5 +46,23 @@
         "endDate": "2025-02-26",
         "details": "The White Jade has docked in Florawish! Help master musicians and play minigames to get limited time rewards! Exclusive Shop items have also been added during this festive season.",
         "rewards": ["Endless Longing outfit sketch", "Cloudborne Cranes sketch", "Diamonds", "Glitter Bubbles", "Thoughts", "Shining Particles", "Bling"]
+    },
+    {
+        "title": "Star-Kissed Wishes",
+        "image": "https://img.game8.co/4077320/6bec7eee1a37aa728bf5b992e274f1cf.png/show",
+        "imageAlt": "Star-Kissed Wishes banner",
+        "startDate": "2024-12-19",
+        "endDate": "2025-01-23",
+        "details": "Participate in the Wish Festival! Complete [Go to the Dream Warehouse!] quest to unlock exclusive rewards and participate in many other limited-time activities during the New Year!",
+        "rewards": ["Memory's Stardust sketch", "Diamonds", "Bling", "Threads of Purity", "Profile card background", "and more!"]
+    },
+    {
+        "title": "Heartfelt Gifts",
+        "image": "https://img.game8.co/4054264/9bf98ad736bfcb7356e8d732a35154a4.png/show",
+        "imageAlt": "Heartfelt Gifts banner",
+        "startDate": "2024-12-5",
+        "endDate": "2024-12-18",
+        "details": "Celebrate the official launch of Infinity Nikki and Nikki's birthday! Log in to claim an exclusive event outfit and other rewards!",
+        "rewards": ["Starlit Celebration outfit", "Photo pose", "Diamonds", "Eurekas", "Threads of Purity", "Revelatioin Crystals"]
     }
 ]
