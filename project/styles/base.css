@@ -22,10 +22,12 @@ header {
     position: relative;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Playfair Display', serif;
     color: var(--primary-color);
-    padding: 0.5rem;
+}
+
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -180,7 +182,6 @@ footer a {
     border: 1px solid var(--accent-color);
     border-radius: 10px;
     padding: 2rem;
-    background-color: var();
 }
 
 .latest-section {
@@ -254,8 +255,6 @@ footer a {
 .latest-preview {
     margin-bottom: 1rem;
     line-height: 1.6;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
@@ -850,8 +849,6 @@ footer a {
 .news-qa p {
     overflow: hidden;
     text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
 }
 
 .team-name {
